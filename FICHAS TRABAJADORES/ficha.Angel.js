@@ -61,7 +61,7 @@ function vacacionesPendientes(a) {
 
   return diasVacacionesDisponibles
 }
-const a = vacaciones(d)
+const a = vacaciones(diffInMonths)
 
 document.getElementById("vacacionesPendientes").textContent =
   vacacionesPendientes(a)
